@@ -1,2 +1,2 @@
 # Programas-C
-Programas em criados em C
+Programas em C criados para aulas de Logica de Programação
