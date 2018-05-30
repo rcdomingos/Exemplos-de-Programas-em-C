@@ -25,14 +25,14 @@ if(numeroinicial<numerofinal){
 	for (numeroinicial;numeroinicial<=numerofinal;numeroinicial++) {
 		
 //validação se o numero é par
-		if (numeroinicial%2 == 0){
+		if (numeroinicial%4 == 0){
 			printf ("%i \n",numeroinicial);
 		}	 
 	}
 }else
 	for (numeroinicial;numeroinicial>=numerofinal;numeroinicial--) {
 //validação se o numero é par
-		if (numeroinicial%2 == 0){
+		if (numeroinicial%4 == 0){
 			printf ("%i \n",numeroinicial);
 		}
 	}
@@ -43,5 +43,3 @@ if(numeroinicial<numerofinal){
 
 return(0); 
 }
-	
-
